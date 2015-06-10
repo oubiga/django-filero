@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: django-filer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-13 19:10+0200\n"
-"PO-Revision-Date: 2015-06-10 00:43+0100\n"
+"PO-Revision-Date: 2015-06-10 22:43+0100\n"
 "Last-Translator: Pablo Oubiña\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/django-filer/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: views.py:103
 msgid "Folder with this name already exists."
-msgstr "Ya existe un directorio con este nombre."
+msgstr "Ya existe una carpeta con este nombre."
 
 #: admin/fileadmin.py:41
 msgid "Advanced"
@@ -37,7 +37,7 @@ msgstr "Los elementos deben estar seleccionados para efectuar acciones sobre ell
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
 msgstr[0] " %(total_count)s seleccionado"
-msgstr[1] "Todos los %(total_count)s seleccionados"
+msgstr[1] "%(total_count)s seleccionados"
 
 #: admin/folderadmin.py:377
 #, python-format
@@ -51,21 +51,21 @@ msgstr "Ninguna acción seleccionada."
 #: admin/folderadmin.py:497
 #, python-format
 msgid "Successfully moved %(count)d files to clipboard."
-msgstr "%(count)d archivos movidos con éxito al clipboard."
+msgstr "%(count)d archivos movidos con éxito al portapapeles."
 
 #: admin/folderadmin.py:503
 msgid "Move selected files to clipboard"
-msgstr "Mover archivos selecionados al clipboard."
+msgstr "Mover archivos selecionados al portapapeles."
 
 #: admin/folderadmin.py:537
 #, python-format
 msgid "Successfully disabled permissions for %(count)d files."
-msgstr "Permisos para %(count)d ficheros deshabilitados con éxito."
+msgstr "Permisos para %(count)d archivos deshabilitados con éxito."
 
 #: admin/folderadmin.py:541
 #, python-format
 msgid "Successfully enabled permissions for %(count)d files."
-msgstr "Permisos para %(count)d ficheros habilitados con éxito."
+msgstr "Permisos para %(count)d archivos habilitados con éxito."
 
 #: admin/folderadmin.py:550
 msgid "Enable permissions for selected files"
@@ -78,11 +78,11 @@ msgstr "Deshabilitar permisos para los archivos seleccionados."
 #: admin/folderadmin.py:623
 #, python-format
 msgid "Successfully deleted %(count)d files and/or folders."
-msgstr "Eliminados %(count)d ficheros y/o directorios con éxito."
+msgstr "Eliminados %(count)d archivos y/o carpetas con éxito."
 
 #: admin/folderadmin.py:630
 msgid "Cannot delete files and/or folders"
-msgstr "No es posible eliminar ficheros y/o directorios"
+msgstr "No es posible eliminar archivos y/o carpetas"
 
 #: admin/folderadmin.py:632
 msgid "Are you sure?"
@@ -90,24 +90,24 @@ msgstr "¿Estás seguro?"
 
 #: admin/folderadmin.py:637
 msgid "Delete files and/or folders"
-msgstr "Eliminar ficheros y/o directorios"
+msgstr "Eliminar archivos y/o carpetas"
 
 #: admin/folderadmin.py:656
 msgid "Delete selected files and/or folders"
-msgstr "Eliminar ficheros y/o directorios seleccionados"
+msgstr "Eliminar archivos y/o carpetas seleccionados"
 
 #: admin/folderadmin.py:771
 #, python-format
 msgid "Successfully moved %(count)d files and/or folders to folder '%(destination)s'."
-msgstr "Movidos con éxito %(count)d ficheros y/o directorios al directorio '%(destination)s'."
+msgstr "Movidos con éxito %(count)d archivos y/o carpetas a la carpeta '%(destination)s'."
 
 #: admin/folderadmin.py:778 admin/folderadmin.py:780
 msgid "Move files and/or folders"
-msgstr "Mover ficheros y/o directorios"
+msgstr "Mover archivos y/o carpetas"
 
 #: admin/folderadmin.py:797
 msgid "Move selected files and/or folders"
-msgstr "Mover ficheros y/o directorios seleccionados"
+msgstr "Mover archivos y/o carpetas seleccionados"
 
 #: admin/folderadmin.py:854
 #, python-format
@@ -121,37 +121,37 @@ msgstr "Cambiar el nombre a archivos"
 #: admin/folderadmin.py:975
 #, python-format
 msgid "Successfully copied %(count)d files and/or folders to folder '%(destination)s'."
-msgstr "Copiados con éxito %(count)d ficheros y/o directorios al directorio '%(destination)s'."
+msgstr "Copiados con éxito %(count)d archivos y/o carpetas a la carpeta '%(destination)s'."
 
 #: admin/folderadmin.py:989 admin/folderadmin.py:991
 msgid "Copy files and/or folders"
-msgstr "Copiar ficheros y/o directorios"
+msgstr "Copiar archivos y/o carpetas"
 
 #: admin/folderadmin.py:1010
 msgid "Copy selected files and/or folders"
-msgstr "Copiar ficheros y/o directorios seleccionados"
+msgstr "Copiar archivos y/o carpetas seleccionados"
 
 #: admin/folderadmin.py:1105
 #, python-format
 msgid "Successfully resized %(count)d images."
-msgstr "Redimensionadas con éxito %(count)d imágenes."
+msgstr "Se ha cambiado la dimensión de %(count)d imágenes con éxito."
 
 #: admin/folderadmin.py:1113 admin/folderadmin.py:1115
 msgid "Resize images"
-msgstr "Redimensionar imágenes."
+msgstr "Cambiar la dimensión de imágenes."
 
 #: admin/folderadmin.py:1133
 msgid "Resize selected images"
-msgstr "Redimensionar imágenes seleccionadas."
+msgstr "Cambiar la dimensión de imágenes seleccionadas."
 
 #: admin/forms.py:26
 msgid "Suffix which will be appended to filenames of copied files."
-msgstr "Sufijo que se añadirá a los nombre de los archivos copiados."
+msgstr "Sufijo que se añadirá a los nombres de los archivos copiados."
 
 #: admin/forms.py:33
 #, python-format
 msgid "Suffix should be a valid, simple and lowercase filename part, like \"%(valid)s\"."
-msgstr "El sufijo debe ser una parte válida de un nombre de fichero, simple y en minúsculas, como \"%(valid)s\"."
+msgstr "El sufijo debe ser una parte válida de un nombre de archivo, simple y en minúsculas, como \"%(valid)s\"."
 
 #: admin/forms.py:54
 #, python-format
@@ -443,13 +443,13 @@ msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would result in deleting related objects, but your account doesn't "
 "have permission to delete the following types of objects:"
 msgstr ""
-"Si borras los '%(escaped_object)s’ %(object_name)s, borrarás obxectos relacionados, pero tú cuenta no tiene permiso "
+"Si borras los '%(escaped_object)s’ %(object_name)s, borrarás objetos relacionados, pero tú cuenta no tiene permiso "
 "para borrar los siguientes tipos de objetos:"
 
 #: templates/admin/filer/delete_confirmation.html:21
 #, python-format
 msgid "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the following protected related objects:"
-msgstr "Si borras los '%(escaped_object)s’ %(object_name)s, borrarás los siguientes obxectos relacionados protegidos:"
+msgstr "Si borras los '%(escaped_object)s’ %(object_name)s, borrarás los siguientes objetos relacionados protegidos:"
 
 #: templates/admin/filer/delete_confirmation.html:29
 #, python-format
@@ -469,12 +469,12 @@ msgid ""
 "Deleting the selected files and/or folders would result in deleting related objects, but your account doesn't have "
 "permission to delete the following types of objects:"
 msgstr ""
-"Si borraras los archivos seleccionados y/o carpetas, borrarás objetos relacionados, pero tú cuenta no tiene permiso "
-"para borrar los siguientes tipos de objetos:"
+"Si borras los archivos seleccionados y/o carpetas, borrarás objetos relacionados, pero tú cuenta no tiene permiso para "
+"borrar los siguientes tipos de objetos:"
 
 #: templates/admin/filer/delete_selected_files_confirmation.html:19
 msgid "Deleting the selected files and/or folders would require deleting the following protected related objects:"
-msgstr "Si borraras los archivos seleccionados y/o carpetas, borrarás los siguientes objetos relacionados protegidos:"
+msgstr "Si borras los archivos seleccionados y/o carpetas, borrarás los siguientes objetos relacionados protegidos:"
 
 #: templates/admin/filer/delete_selected_files_confirmation.html:27
 msgid ""
@@ -519,7 +519,7 @@ msgstr "No hay destino de carpetas disponible."
 
 #: templates/admin/filer/folder/choose_copy_destination.html:18
 msgid "There are no files and/or folders available to copy."
-msgstr "Non hay archivos y/o carpetas disponibles para copiar."
+msgstr "No hay archivos y/o carpetas disponibles para copiar."
 
 #: templates/admin/filer/folder/choose_copy_destination.html:20
 msgid "The following files and/or folders will be copied to a destination folder (retaining their tree structure):"

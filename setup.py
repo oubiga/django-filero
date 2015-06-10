@@ -13,9 +13,9 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "django-filer",
+    name = "django-filero",
     version = version,
-    url = 'http://github.com/stefanfoulis/django-filer',
+    url = 'https://github.com/oubiga/django-filero',
     license = 'BSD',
     platforms=['OS Independent'],
     description = "A file management application for django that makes handling of files and images a breeze.",

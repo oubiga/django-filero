@@ -36,10 +36,10 @@ Dependencies
 Installation
 ------------
 
-To get started using ``django-filer`` simply install it with
+To get started using ``django-filero`` simply install it with
 ``pip``::
 
-    $ pip install django-filer
+    $ pip install django-filero
 
 
 Configuration

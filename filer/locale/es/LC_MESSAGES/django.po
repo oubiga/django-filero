@@ -20,6 +20,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.1\n"
 
+#: filer/apps.py:7
+msgid "django filer"
+msgstr "Editor de Fotografías"
+
 #: views.py:103
 msgid "Folder with this name already exists."
 msgstr "Ya existe una carpeta con este nombre."

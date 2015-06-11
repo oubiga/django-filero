@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: django-filer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-13 19:10+0200\n"
-"PO-Revision-Date: 2015-06-10 23:35+0100\n"
+"PO-Revision-Date: 2015-06-11 23:09+0100\n"
 "Last-Translator: Pablo Oubiña\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/django-filer/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.1\n"
+
+#: filer/apps.py:7
+msgid "django filer"
+msgstr "Editor de Fotografías"
 
 #: views.py:103
 msgid "Folder with this name already exists."

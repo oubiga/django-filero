@@ -24,7 +24,7 @@ setup(
     author_email = 'stefan@foulis.ch',
     packages=find_packages(),
     install_requires = (
-        'Django==1.7.8',
+        'Django==2.2',
         'easy-thumbnails==2.2',
         'django-mptt==0.7.4',
         'django_polymorphic==0.7.1',

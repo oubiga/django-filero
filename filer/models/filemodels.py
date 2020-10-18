@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import hashlib
 import os
 
-from django.core import urlresolvers
+from django.urls import reverse
 from django.conf import settings
 from django.core.files.base import ContentFile
 from django.db import models
@@ -223,7 +223,7 @@ class File(PolymorphicModel, mixins.IconsMixin):
             model_name = self._meta.module_name
         else:
             model_name = self._meta.model_name
-        return urlresolvers.reverse(
+        return reverse(
             'admin:%s_%s_change' % (self._meta.app_label,
                                     model_name,),
             args=(self.pk,)
